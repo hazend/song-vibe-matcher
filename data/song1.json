@@ -1,0 +1,18 @@
+[
+    {
+        "artist": "John Denver",
+        "song": "Take Me Home, Country Roads",
+        "lyrics": "Almost heaven, West Virginia\nBlue Ridge Mountains, Shenandoah River\nLife is old there, older than the trees\nYounger than the mountains, growin' like a breeze\nCountry roads, take me home\nTo the place I belong\nWest Virginia, mountain mama\nTake me home, country roads",
+        "year": 1971,
+        "genre": "Country",
+        "album": "Poems, Prayers & Promises"
+    },
+    {
+        "artist": "Queen",
+        "song": "Bohemian Rhapsody",
+        "lyrics": "Is this the real life? Is this just fantasy?\nCaught in a landslide, no escape from reality\nOpen your eyes, look up to the skies and see\nI'm just a poor boy, I need no sympathy\nBecause I'm easy come, easy go, little high, little low\nAny way the wind blows doesn't really matter to me, to me",
+        "year": 1975,
+        "genre": "Rock",
+        "album": "A Night at the Opera"
+    }
+]
