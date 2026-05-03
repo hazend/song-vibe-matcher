@@ -24,10 +24,10 @@ The heart of the application follows a seamless flow:
 ## Roadmap
 
 Building this project in tangible, incremental steps:
-1. **v0.1**: Local text sentiment analysis for individual songs. (in progress...)
-2. **v0.2**: Integration of AI Image Generation.
-3. **v0.3**: Interactive UI development.
-4. **v0.4**: Full internet integration and multi-platform support.
+1. **v0.1**: Local text sentiment analysis for individual songs. (complete)
+2. **v0.2**: Integration of AI Image Generation. (in progress...)
+3. **v0.3**: Interactive UI development. (not started)
+4. **v0.4**: Full internet integration and multi-platform support. (not started)
 
 ---
 
