@@ -1,35 +1,10 @@
 import json
 import os
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from models import Song, VibeAnalysis
 
-analyzer = SentimentIntensityAnalyzer()
-
-'''
-Returns the mood of the song based on the compound score
-'''
-def get_mood(compound: float) -> str:
-    if compound >= 0.05:
-        return "Positive"
-    elif compound <= -0.05:
-        return "Negative"
-    else:
-        return "Neutral"
-
-'''
-Performs sentiment analysis using VADER
-'''
-def analyze_vibe(song: Song) -> VibeAnalysis:
-    scores = analyzer.polarity_scores(song.lyrics)
-    compound = scores['compound']
-    
-    return VibeAnalysis(
-        artist=song.artist,
-        title=song.title,
-        sentiment_score=compound,
-        mood=get_mood(compound),
-        compound_score=compound
-    )
+# Delegate vibe analysis to the enriched ML module (v0.2).
+# Re-exported here so main.py needs no import changes.
+from ml.analyzer import analyze_vibe
 
 '''
 Returns song by name from the local json database
