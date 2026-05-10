@@ -2,3 +2,7 @@ fastapi
 uvicorn
 vaderSentiment
 pydantic
+
+textblob
+nltk
+fastapi[standard]   # includes staticfiles support
